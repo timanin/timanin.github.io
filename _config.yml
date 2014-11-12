@@ -1,0 +1,28 @@
+# Site settings
+title: Sergey's blog
+email: timanin@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: ""
+url: "https://blog.sergeytimanin.com"
+twitter_username: sergeytimanin
+github_username:  timanin
+timezone: Europe/London
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# defaults
+defaults:
+  -
+    scope:
+      path: "."
+      type: "pages"
+    values:
+      layout: "project"
+      author: "Sergey Timanin"
+      category: "project"
