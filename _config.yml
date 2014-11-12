@@ -13,7 +13,7 @@ title:                  Sergey's blog
 email:                  timanin@gmail.com
 description:            My musings and ponderings about devops and technology.
 baseurl:                /
-url:                    https://blog.sergeytimanin.com
+url:                    http://blog.sergeytimanin.com
 twitter_username:       sergeytimanin
 github_username:        timanin
 timezone:               Europe/London
