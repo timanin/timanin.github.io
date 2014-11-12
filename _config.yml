@@ -27,15 +27,3 @@ author:
 
 # Custom vars
 version:                0.0.1
-
-
-# defaults
-defaults:
-  -
-    scope:
-      path: "."
-      type: "posts"
-    values:
-      layout: "project"
-      author: "Sergey Timanin"
-      category: "project"
