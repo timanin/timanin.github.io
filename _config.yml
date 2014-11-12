@@ -1,0 +1,41 @@
+# Dependencies
+markdown:               redcarpet
+highlighter:            pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:              pretty
+relative_permalinks:    true
+
+# Site settings
+title:                  Sergey's blog
+email:                  timanin@gmail.com
+description:            My musings and ponderings about devops and technology.
+baseurl:                /
+url:                    https://blog.sergeytimanin.com
+twitter_username:       sergeytimanin
+github_username:        timanin
+timezone:               Europe/London
+paginate:               5
+
+# About/contact
+author:
+  name:                 Sergey Timanin
+  url:                  https://twitter.com/sergeytimanin
+  email:                timanin@gmail.com
+
+# Custom vars
+version:                0.0.1
+
+
+# defaults
+defaults:
+  -
+    scope:
+      path: "."
+      type: "posts"
+    values:
+      layout: "project"
+      author: "Sergey Timanin"
+      category: "project"
