@@ -14,16 +14,18 @@ email:                  timanin@gmail.com
 description:            My musings and ponderings about devops and technology.
 baseurl:                /
 url:                    http://blog.sergeytimanin.com
-twitter_username:       sergeytimanin
-github_username:        timanin
 timezone:               Europe/London
 paginate:               5
 
 # About/contact
 author:
-  name:                 Sergey Timanin
-  url:                  https://twitter.com/sergeytimanin
-  email:                timanin@gmail.com
+    name:               Sergey Timanin
+    email:              timanin@gmail.com
+    url:                http://blog.sergeytimanin.com
+    twitter:            sergeytimanin
+    github:             timanin
+    linkedin:           timanin
+    email_md5:          cc744b30de91c8ce928a083cad416441
 
 # Custom vars
 version:                0.0.1
