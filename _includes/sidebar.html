@@ -9,29 +9,29 @@
   </div>
 
   <div id="contact-list" style="text-align:center">
-      {% if site.author.twitter %}
-        <a href="https://twitter.com/{{ site.author.twitter }}">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-twitter fa-stack-1x"></i>
-          </span>
-        </a>
-      {% endif %}
+    {% if site.author.twitter %}
+      <a href="https://twitter.com/{{ site.author.twitter }}">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-twitter fa-stack-1x"></i>
+        </span>
+      </a>
+    {% endif %}
 
-      {% if site.author.github %}
-        <a href="https://github.com/{{ site.author.github }}">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-github fa-stack-1x"></i>
-          </span>
-        </a>
-      {% endif %}
+    {% if site.author.github %}
+      <a href="https://github.com/{{ site.author.github }}">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-github fa-stack-1x"></i>
+        </span>
+      </a>
+    {% endif %}
 
-      {% if site.author.linkedin %}
-        <a href="https://linkedin.com/in/{{ site.author.linkedin }}">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-linkedin-square fa-stack-1x"></i>
-          </span>
-        </a>
-      {% endif %}
+    {% if site.author.linkedin %}
+      <a href="https://linkedin.com/in/{{ site.author.linkedin }}">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-linkedin-square fa-stack-1x"></i>
+        </span>
+      </a>
+    {% endif %}
   </div>
 
 
@@ -55,6 +55,8 @@
         {% endif %}
       {% endif %}
     {% endfor %}
+
+    <a class="sidebar-nav-item" href="/atom.xml"><i class="fa fa-rss fa-fw"></i>&nbsp; Subscribe</a>
 
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
